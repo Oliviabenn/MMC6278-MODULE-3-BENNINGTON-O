@@ -9,27 +9,27 @@ var questionsArr = [
       },
 //2
       {
-        question: 'Canada is the second-largest country in the world.',
+        question: 'An element is a pure substance that contains only one type of atom.',
         answer: "true"
       },
 //3
       {
-        question: 'Canada is the second-largest country in the world.',
+        question: 'Mount Everest is present in the Himalayas.',
         answer: "true"
       },
 //4
       {
-        question: 'Canada is the second-largest country in the world.',
+        question: 'Scapula is also called a shoulder bone.',
         answer: "true"
       },
 //5
       {
-        question: 'Canada is the second-largest country in the world.',
+        question: 'The Nile is the longest river in Africa.',
         answer: "true"
       },
 //6
       {
-        question: 'Canada is the second-largest country in the world.',
+        question: 'All of these questions have been truths.',
         answer: "true"
       },
 ]
