@@ -1,4 +1,4 @@
-//pseudocode
+//begin quiz on button click
 function runQuiz(){
 
 var questionsArr = [
@@ -31,7 +31,21 @@ var questionsArr = [
       {
         question: 'All of these questions have been truths.',
         answer: "true"
-      },
-]
+      }
+];
+
+//score
 var score = 0;
+
+//loop
+for(var i=0; i < questionsArr.length; i++){
+  var response = window.question(questionsArr[i].question);
+  if(response == questionsArr[i].answer){
+    score++;
+    alert("Correct!");
+  }else {
+    alert("Wrong!");
+  }
+}
+alert("You scored" + score + "out of" + questionsArr.length);
 }
