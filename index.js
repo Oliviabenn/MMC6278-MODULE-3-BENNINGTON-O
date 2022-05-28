@@ -1,1 +1,5 @@
-// Your code here
+//pseudocode
+
+function runQuiz(){
+  
+}
