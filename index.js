@@ -1,6 +1,4 @@
-//begin quiz on button click
-function runQuiz(){
-
+//Array of question and answers
 var questionsArr = [
 //1
       {
@@ -37,15 +35,21 @@ var questionsArr = [
 //score
 var score = 0;
 
+//begin quiz on button click
+function runQuiz(){
+
 //loop
 for(var i=0; i < questionsArr.length; i++){
-  var response = window.question(questionsArr[i].question);
+  var response = confirm(questionsArr[i].question);
   if(response == questionsArr[i].answer){
-    score++;
-    alert("Correct!");
-  }else {
-    alert("Wrong!");
+    score= score + (100 / questionsArr.length);
+    
   }
+ 
 }
-alert("You scored" + score + "out of" + questionsArr.length);
+
+var finalScore= Math.round(score);
+alert("You scored " + finalScore + "%");
+window.location.reload();
+
 }
